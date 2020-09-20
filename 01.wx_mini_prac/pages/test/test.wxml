@@ -1,0 +1,9 @@
+<!--pages/test/test.wxml-->
+<view>
+   <view wx:if="{{ is_ok }}">条件渲染：wx:if</view>
+   <view>
+     <text>列表渲染：</text>
+     <text wx:for="{{items}}"  wx:key="index">{{item}}-</text>
+   </view>
+</view>
+
