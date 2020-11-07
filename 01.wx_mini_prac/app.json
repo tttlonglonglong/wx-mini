@@ -2,7 +2,8 @@
   "pages": [
     "pages/test/test",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/useComp/useComp"
   ],
   "window": {
     "backgroundTextStyle": "light",

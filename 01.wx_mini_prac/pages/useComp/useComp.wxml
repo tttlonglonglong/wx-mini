@@ -1,0 +1,7 @@
+<!--pages/useComp/useComp.wxml-->
+<view>
+  <text>使用自定义组件的页面</text>
+  <custom-comp innerText="{{pageData}}">
+    <view></view>
+  </custom-comp>
+</view>

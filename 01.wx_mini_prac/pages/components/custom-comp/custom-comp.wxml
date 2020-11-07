@@ -1,0 +1,6 @@
+<!--pages/components/custom-comp/custom-comp.wxml-->
+<view>
+  <text class="inner">自定义的组件</text>
+  <view class="inner">{{innerText && innerText.name}}</view>
+  <slot>自定义组件中的slot插槽</slot>
+</view>

@@ -5,7 +5,7 @@ const app = getApp()
 Page({
   data: {
     motto: 'Hello World',
-    
+    items: [1, 2, 3, 4],
     userInfo: {},
     num:'111',
     time:'',

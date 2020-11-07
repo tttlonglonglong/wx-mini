@@ -6,6 +6,8 @@
       <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
       <text class="userinfo-nickname">{{userInfo.nickName}}!!!</text>
     </block> -->
+    <view wx:for="1234" wx:for-item="num" wx:for-index="index">{{num}}-{{index}}</view>
+    <view >12</view>
   </view>
   
   <view>
@@ -16,4 +18,5 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+  
 </view>
