@@ -5,9 +5,14 @@ Page({
    * 页面的初始数据
    */
   data: {
-    pageData:{name:"来自page页面的name"}
+    pageData: { name: "来自page页面的name" }
   },
-
+  // 页面中定义的样式
+  onPageEvent: function (e, ...rest) {
+    console.log('page中定义的事件', e, rest)
+    const custCompRef = this.selectComponent('#custom-comp-id')
+    console.log("获取到的自定义组件的实例", custCompRef)
+  },
   /**
    * 生命周期函数--监听页面加载
    */

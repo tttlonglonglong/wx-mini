@@ -1,6 +1,7 @@
-<!--pages/components/custom-comp/custom-comp.wxml-->
+<!-- pages/components/custom-comp/custom-comp.wxml -->
 <view>
   <text class="inner">自定义的组件</text>
   <view class="inner">{{innerText && innerText.name}}</view>
+  <button bindtap="onTap">点击这个按钮将触发Page中的“onPageEvent”事件</button>
   <slot>自定义组件中的slot插槽</slot>
 </view>

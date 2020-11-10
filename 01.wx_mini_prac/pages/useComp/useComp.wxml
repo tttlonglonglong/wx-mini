@@ -1,7 +1,7 @@
-<!--pages/useComp/useComp.wxml-->
+<!-- pages/useComp/useComp.wxml -->
 <view>
   <text>使用自定义组件的页面</text>
-  <custom-comp innerText="{{pageData}}">
-    <view></view>
+  <custom-comp id="custom-comp-id" bind:myevent="onPageEvent" innerText="{{pageData}}">
+    <view>这里是页面插入到组件slot中的内容</view>
   </custom-comp>
 </view>
